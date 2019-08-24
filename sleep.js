@@ -1,8 +1,4 @@
-async function sleep (sec) {
-        await timer(sec);
-}
-function timer(sec)
-{
+function sleep (sec) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve("성공");
