@@ -1,4 +1,5 @@
 function sleep(){
+    this.eFlag = false;
     if(false === (this instanceof sleep)){
         return new sleep();
     }
@@ -10,8 +11,10 @@ function sleep(){
                 }, sec);
             }).then(r => console.log(r));
         },
-        c : function(){
-            console.log("테스트");
+        seletor : function(e){
+            if (document.querySelector(e)) {
+                this.eFlag = true;
+            }
             return this;
         }
     }
