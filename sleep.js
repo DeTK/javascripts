@@ -1,7 +1,8 @@
 function sleep(sec){
+  let s = sec;
   return new Promise((resolve, reject) => {
-    setTimeout((sec) => {
-      resolve(`{sec} 성공`);
+    setTimeout(() => {
+      resolve(`{s} 성공`);
     },sec);
   });
 }
