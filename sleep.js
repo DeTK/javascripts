@@ -4,9 +4,9 @@ function sleep (sec) {
             setTimeout(() => {
                 resolve(` ${sec / 1000} 초`);
             }, sec);
-        });
+        }),
         consoles : function(){
-            console.log(sec)
+            console.log(sec);
         }
     }
 }
