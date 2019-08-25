@@ -1,5 +1,5 @@
 async function sleep (sec) {
-    return function(){
+    await function(){
         return new Promise((resolve, reject) => {
             setTimeout(function(){
                 resolve("성공");
