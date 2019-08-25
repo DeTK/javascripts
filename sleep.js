@@ -1,4 +1,4 @@
-const sleep = function(){
+ function sleep(){
     return {
         time : function(sec = 0) {
             return new Promise((resolve, reject) => {
