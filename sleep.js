@@ -1,14 +1,13 @@
-function sleep(sec = 0){
-    this.s = sec;
+function sleep(){
     if(false === (this instanceof sleep)){
         return new sleep();
     }
     return {
-        time : function() {
+        time : function(sec = 0) {
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
-                    resolve(` ${this.s / 1000} 초`);
-                }, this.s);
+                    resolve(` ${sec / 1000} 초`);
+                }, sec);
             }).then(r => console.log(r));
         },
         c : function(){
