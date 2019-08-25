@@ -9,7 +9,3 @@ sleep.prototype.time = function(s = 0) {
         }, this.sec);
     })
 };
-sleep.prototype.c = function() {
-    console.log(this.sec);
-    return this;
-};
