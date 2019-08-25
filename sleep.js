@@ -8,7 +8,7 @@ function sleep (sec) {
             })
         },
         console : function() {
-            console.log(sec);
+            return console.log(sec);
         }
     }
 }
