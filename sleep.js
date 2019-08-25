@@ -1,5 +1,5 @@
 function sleep(sec){
-  return new Promise(resolve => {
+  return new Promise(() => {
     setTimeout(() => {},sec);
   });
 }
