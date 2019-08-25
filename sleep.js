@@ -1,4 +1,4 @@
-function sleep (s) {
+const sleep = function(s) {
     let sec = s
 }
 sleep.prototype.time = function() {
