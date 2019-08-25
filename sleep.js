@@ -5,5 +5,6 @@ function sleep (sec) {
                 resolve(` ${sec / 1000} 초`);
             }, sec);
         });
-        consoles : function(){console.log(sec)}
+        consoles : function(){console.log(sec)
+    }
 }
