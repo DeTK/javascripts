@@ -1,5 +1,5 @@
 function sleep(sec = 0){
-    this.sec = sec;
+    this.s = sec;
     if(false === (this instanceof sleep)){
         return new sleep();
     }
@@ -7,8 +7,8 @@ function sleep(sec = 0){
         time : function() {
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
-                    resolve(` ${this.sec / 1000} 초`);
-                }, sec);
+                    resolve(` ${this.s / 1000} 초`);
+                }, this.s);
             }).then(r => console.log(r));
         },
         c : function(){
