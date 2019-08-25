@@ -1,6 +1,6 @@
 function sleep (sec) {
     return new Promise((resolve, reject) => {
-        setTimeout(() => {
+        setTimeout(function(){
             resolve("성공");
         }, sec);
     });
