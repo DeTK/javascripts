@@ -1,5 +1,7 @@
 function sleep(){
-    'use strict';
+    if( false === (this instanceof sleep) ){
+		return new sleep();
+	}
     return {
         time : function(sec = 0) {
             return new Promise((resolve, reject) => {
