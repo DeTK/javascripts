@@ -7,7 +7,7 @@ function sleep(){
             return new Promise((resolve, reject) => {
                 setTimeout(() => {
                 }, sec);
-            });
+            }).then();
         }
     }
 }
