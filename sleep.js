@@ -1,22 +1,19 @@
-(function(window)
+var sleep =
 {
-    window.sleep = function()
+    if(false === (this instanceof sleep))
     {
-        if(false === (this instanceof sleep))
+        return
         {
-            return
+            time:function(sec = 0)
             {
-                time:function(sec=0)
+                return new Promise((resolve, reject)=>
                 {
-                    return new Promise((resolve,reject)=>
+                    setTimeout(()=>
                     {
-                        setTimeout(()=>
-                        {
-                            resolve();
-                        },sec);
-                    }).then();
-                }
+                        resolve();
+                    }, sec);
+                }).then();
             }
         }
     }
-})(window);
+}
