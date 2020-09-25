@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         쿠키
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  쿠키
 // @author       You
 // @connect      *
