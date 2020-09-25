@@ -1,13 +1,8 @@
-var sleep =
+function sleep ()
 {
-    time:function(sec = 0)
+    const self =
     {
-        return new Promise((resolve, reject)=>
-        {
-            setTimeout(()=>
-            {
-                resolve();
-            }, sec);
-        }).then();
+        time : (sec = 0) => new Promise((resolve, reject)=>{setTimeout(()=>{resolve();}, sec);}).then()
     }
+    return self;
 }
