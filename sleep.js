@@ -1,19 +1,13 @@
 var sleep =
 {
-    if(false === (this instanceof sleep))
+    time:function(sec = 0)
     {
-        return
+        return new Promise((resolve, reject)=>
         {
-            time:function(sec = 0)
+            setTimeout(()=>
             {
-                return new Promise((resolve, reject)=>
-                {
-                    setTimeout(()=>
-                    {
-                        resolve();
-                    }, sec);
-                }).then();
-            }
-        }
+                resolve();
+            }, sec);
+        }).then();
     }
 }
