@@ -1,14 +1,12 @@
-function sleep(){
-    if(false === (this instanceof sleep)){
+var sleep = {
+    if(false === (this instanceof Object)){
         return new sleep();
     }
-    return {
-        time : function(sec = 0) {
-            return new Promise((resolve, reject) => {
-                setTimeout(() => {
-                    resolve(` ${sec / 1000} 초`);
-                }, sec);
-            }).then(r => console.log(r));
-        },
-    }
+    time : function(sec = 0) {
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                resolve();
+            }, sec);
+        }).then();
+    },
 }
