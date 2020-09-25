@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         쿠키
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.1
 // @description  쿠키
 // @author       You
 // @connect      *
 // @include      *
 // @grant        unsafeWindow
+// @downloadURL  https://github.com/DeTK/javascripts/raw/master/Cookie.user.js
 // @noframes
 
 
