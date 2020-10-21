@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         쿠키
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      0.5
 // @description  쿠키
 // @author       You
 // @connect      *
@@ -17,7 +17,7 @@
 (function() {
     if (unsafeWindow.myCookie instanceof Object)
     {
-        return;
+        return; 
     }
     else
     {
