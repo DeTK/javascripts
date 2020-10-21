@@ -17,6 +17,7 @@
 (function() {
     if (unsafeWindow.myCookie instanceof Object)
     {
+        // 이런
         return; 
     }
     else
