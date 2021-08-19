@@ -5,3 +5,4 @@ const sleep = (() => {
     const random = async (min, max, baseTime) => { await time((Math.floor(Math.random() * (max- min + 1)) + min) * baseTime);};
     return { Time: time, Element: element, Expression: expression, Random: random }; 
 })();
+ 
