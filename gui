@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-  <script type="text/javascript" src="./test.js"></script>
-  <link rel="stylesheet" type="text/css" href="./main.css">
-  </link>
-</head>
-
-<body>
-  
-  <div id="MyBaccarat">
+<div id="MyBaccarat">
     <div class="currentTIme mainTop">00 : 00 : 01 초</div>
     <div id="More" class="arrow down mainTop">
       <p></p>
@@ -63,6 +51,3 @@
         <input type="button" value="카운트" class="button" />
       </div>
     </div>
-    <iframe src="" frameborder="0"></iframe>
-</body>
-</html>
