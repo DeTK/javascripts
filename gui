@@ -1,24 +1,23 @@
-
-    <div class="currentTIme mainTop">00 : 00 : 00 초</div>
+<div class="currentTIme mainTop">00 : 00 : 00 초</div>
     <div id="More" class="arrow down mainTop">
       <p></p>
     </div>
     <div id="Setting" class="hide">
       <div class="groupBox">
         <span class="groupBoxTitle">루&nbsp&nbsp&nbsp틴</span>
-        <div>
+        <div class="height">
           <span>배팅 금액</span>
           <input type="text" class="bet right" id="RoutineBetMoney"/>
         </div>
-        <div>
+        <div class="height">
           <span>진입 카운트</span>
           <input type="text" class="right" id="RoutineStartCount"/>
         </div>
-        <div>
+        <div class="height">
           <span>최대 카운트</span>
           <input type="text" class="right" id="RoutineCount"/>
         </div>
-        <div>
+        <div class="height">
           <span>랜덤</span>
           <input type="checkbox" id="RandomMartin"/>
           <input type="checkbox" class="visible" id="Routine" />
@@ -26,29 +25,29 @@
       </div>
       <div class="groupBox">
         <span class="groupBoxTitle">마&nbsp&nbsp&nbsp틴</span>
-        <div>
+        <div class="height">
           <span>배팅 금액</span>
           <input type="text" class="bet right" id="MartinBetMoney" />
         </div>
-        <div>
+        <div class="height">
           <span>진입 카운트</span>
           <input type="text" class="right" id="MartinStartCount"/>
         </div>
-        <div>
+        <div class="height">
           <span>최대 카운트</span>
           <input type="text" class="right" id="MartinCount"/>
         </div>
-        <div>
+        <div class="height">
           <span>랜덤</span>
           <input type="checkbox" id="RandomRoutine"/>
           <input type="checkbox" class="visible" id="Martin" />
         </div>
       </div>
-      <div>
+      <div class="height">
         <input type="text" id="WinCount"/>
         <span>회 승리시 종료</span>
       </div>
-      <div>
+      <div class="height">
         <span>실패시 종료</span>
         <input type="checkbox" id="FailClose"/>
       </div>
@@ -58,4 +57,3 @@
         <input type="button" value="스코어" class="button" />
         <input type="button" value="카운트" class="button" />
       </div>
-   
