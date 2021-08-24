@@ -1,17 +1,21 @@
+#MyBaccarat * {
+  color: #d7d7d7;
+}
+
 #MyBaccarat {
+  font-size: 15px;
   border: solid #d7d7d7 1px;
   border-radius: 0.3em;
-  width: 160px;
+  width: 130px;
   height: 25px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   -webkit-transition-delay: 0.5s;
           transition-delay: 0.5s;
   background-color: #191919;
+  position: absolute;
   margin: 0px;
   padding: 0px;
-  color: #d7d7d7;
-  position: absolute;
 }
 
 #MyBaccarat.more {
@@ -27,9 +31,14 @@
 }
 
 #MyBaccarat .currentTIme {
-  width: 135px;
+  width: 105px;
   top: -7px;
   text-align: center;
+  left: 2px;
+}
+
+.arrow {
+  width: 18px;
 }
 
 .arrow > p {
@@ -48,19 +57,20 @@
 }
 
 .down > p {
+  top: 2px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
 
 .up > p {
-  top: 6px;
+  top: 7px;
   transform: rotate(225deg);
   -webkit-transform: rotate(225deg);
 }
 
 #Setting {
   position: relative;
-  top: -8px;
+  top: -14px;
   left: -1px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -72,7 +82,7 @@
   border: 1px solid #d7d7d7;
   border-radius: 0 0.3em 0.3em 0.3em;
   width: 294px;
-  height: 215px;
+  height: 229px;
   -webkit-animation: show 0.5s ease-out;
           animation: show 0.5s ease-out;
   padding: 5px;
@@ -81,7 +91,7 @@
 #Setting.hide {
   border: 0px solid #d7d7d7;
   border-radius: 0 0 0.3em 0.3em;
-  width: 160px;
+  width: 130px;
   height: 0px;
   -webkit-animation: hide 0.5s ease-in;
           animation: hide 0.5s ease-in;
@@ -91,12 +101,12 @@
 @-webkit-keyframes show {
   0% {
     border: 1px solid #d7d7d7;
-    width: 160px;
+    width: 130px;
     height: 0px;
   }
   45% {
-    width: 160px;
-    height: 215px;
+    width: 130px;
+    height: 229px;
   }
   100% {
     border: 1px solid #d7d7d7;
@@ -106,12 +116,12 @@
 @keyframes show {
   0% {
     border: 1px solid #d7d7d7;
-    width: 160px;
+    width: 130px;
     height: 0px;
   }
   45% {
-    width: 160px;
-    height: 215px;
+    width: 130px;
+    height: 229px;
   }
   100% {
     border: 1px solid #d7d7d7;
@@ -122,11 +132,11 @@
   0% {
     border: 1px solid #d7d7d7;
     width: 294px;
-    height: 215px;
+    height: 229px;
   }
   45% {
-    width: 160px;
-    height: 215px;
+    width: 130px;
+    height: 229px;
   }
   100% {
     border: 1px solid #d7d7d7;
@@ -137,11 +147,11 @@
   0% {
     border: 1px solid #d7d7d7;
     width: 294px;
-    height: 215px;
+    height: 229px;
   }
   45% {
-    width: 160px;
-    height: 215px;
+    width: 130px;
+    height: 229px;
   }
   100% {
     border: 1px solid #d7d7d7;
@@ -154,7 +164,7 @@
   border-radius: 0.3em;
   padding: 5px;
   overflow: hidden;
-  height: 111px;
+  height: 127px;
   width: 132px;
 }
 
@@ -167,8 +177,8 @@ input {
   display: -ms-grid;
   display: grid;
   justify-items: center;
-  padding-bottom: 3px;
-  font-size: 120%;
+  padding: 7px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -180,12 +190,13 @@ input.button {
   border-color: transparent;
   background-color: #443434;
   width: 22.8%;
+  height: 30px;
   border-radius: 0.3em;
   padding: 2px;
   margin: 1px;
   color: #ffffff;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 15px;
   margin-top: 5px;
   display: inline;
 }
@@ -207,5 +218,10 @@ input.right {
 
 span.disableText {
   text-decoration: line-through;
+}
+
+div.height {
+  height: 24px;
+  margin-top: 2px;
 }
 /*# sourceMappingURL=main.css.map */
