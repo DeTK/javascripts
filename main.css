@@ -1,0 +1,212 @@
+body {
+  color: #d7d7d7;
+}
+
+#MyBaccarat {
+  border: solid #d7d7d7 1px;
+  border-radius: 0.3em;
+  width: 160px;
+  height: 25px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  background-color: #191919;
+  margin: 0px;
+  padding: 0px;
+}
+
+#MyBaccarat.more {
+  border-radius: 0.3em 0.3em 0 0;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+#MyBaccarat .mainTop {
+  height: 25px;
+  display: inline-block;
+  position: relative;
+}
+
+#MyBaccarat .currentTIme {
+  width: 135px;
+  top: -7px;
+  text-align: center;
+}
+
+.arrow > p {
+  background-color: transparent;
+  border: solid #d7d7d7;
+  border-width: 0 3px 3px 0;
+  padding: 4px;
+  margin: 3px;
+  position: relative;
+  overflow: hidden;
+  float: right;
+  right: 3px;
+  top: 1px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.down > p {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.up > p {
+  top: 6px;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+}
+
+#Setting {
+  position: relative;
+  top: -8px;
+  left: -1px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+  background-color: #191919;
+}
+
+#Setting:not(.hide) {
+  border: 1px solid #d7d7d7;
+  border-radius: 0 0.3em 0.3em 0.3em;
+  width: 291px;
+  height: 215px;
+  -webkit-animation: show 0.5s ease-out;
+          animation: show 0.5s ease-out;
+  padding: 5px;
+}
+
+#Setting.hide {
+  border: 0px solid #d7d7d7;
+  border-radius: 0 0 0.3em 0.3em;
+  width: 160px;
+  height: 0px;
+  -webkit-animation: hide 0.5s ease-in;
+          animation: hide 0.5s ease-in;
+  padding: 0px;
+}
+
+@-webkit-keyframes show {
+  0% {
+    border: 1px solid #d7d7d7;
+    width: 160px;
+    height: 0px;
+  }
+  45% {
+    width: 160px;
+    height: 215px;
+  }
+  100% {
+    border: 1px solid #d7d7d7;
+  }
+}
+
+@keyframes show {
+  0% {
+    border: 1px solid #d7d7d7;
+    width: 160px;
+    height: 0px;
+  }
+  45% {
+    width: 160px;
+    height: 215px;
+  }
+  100% {
+    border: 1px solid #d7d7d7;
+  }
+}
+
+@-webkit-keyframes hide {
+  0% {
+    border: 1px solid #d7d7d7;
+    width: 291px;
+    height: 215px;
+  }
+  45% {
+    width: 160px;
+    height: 215px;
+  }
+  100% {
+    border: 1px solid #d7d7d7;
+  }
+}
+
+@keyframes hide {
+  0% {
+    border: 1px solid #d7d7d7;
+    width: 291px;
+    height: 215px;
+  }
+  45% {
+    width: 160px;
+    height: 215px;
+  }
+  100% {
+    border: 1px solid #d7d7d7;
+  }
+}
+
+.groupBox {
+  display: inline-block;
+  border: 1px solid #d7d7d7;
+  border-radius: 0.3em;
+  padding: 5px;
+  overflow: hidden;
+  height: 111px;
+}
+
+input {
+  width: 1em;
+  text-align: center;
+}
+
+.groupBoxTitle {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  padding-bottom: 3px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.groupBoxTitle:hover {
+  cursor: pointer;
+}
+
+input.button {
+  border-color: transparent;
+  background-color: #443434;
+  width: 22.8%;
+  border-radius: 0.3em;
+  padding: 2px;
+  margin: 1px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 120%;
+  margin-top: 5px;
+  display: inline;
+}
+
+input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 2px;
+}
+
+input.bet {
+  width: 53px;
+}
+
+input.right {
+  float: right;
+}
+
+span.disableText {
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=main.css.map */
