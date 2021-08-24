@@ -1,7 +1,3 @@
-body {
-  color: #d7d7d7;
-}
-
 #MyBaccarat {
   border: solid #d7d7d7 1px;
   border-radius: 0.3em;
@@ -14,6 +10,8 @@ body {
   background-color: #191919;
   margin: 0px;
   padding: 0px;
+  color: #d7d7d7;
+  position: absolute;
 }
 
 #MyBaccarat.more {
