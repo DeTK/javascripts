@@ -1,4 +1,4 @@
-<div id="MyBaccarat">
+
     <div class="currentTIme mainTop">00 : 00 : 00 초</div>
     <div id="More" class="arrow down mainTop">
       <p></p>
@@ -58,4 +58,4 @@
         <input type="button" value="스코어" class="button" />
         <input type="button" value="카운트" class="button" />
       </div>
-    </div>
+   
