@@ -71,7 +71,7 @@
 #Setting:not(.hide) {
   border: 1px solid #d7d7d7;
   border-radius: 0 0.3em 0.3em 0.3em;
-  width: 291px;
+  width: 294px;
   height: 215px;
   -webkit-animation: show 0.5s ease-out;
           animation: show 0.5s ease-out;
@@ -121,7 +121,7 @@
 @-webkit-keyframes hide {
   0% {
     border: 1px solid #d7d7d7;
-    width: 291px;
+    width: 294px;
     height: 215px;
   }
   45% {
@@ -136,7 +136,7 @@
 @keyframes hide {
   0% {
     border: 1px solid #d7d7d7;
-    width: 291px;
+    width: 294px;
     height: 215px;
   }
   45% {
@@ -155,10 +155,11 @@
   padding: 5px;
   overflow: hidden;
   height: 111px;
+  width: 132px;
 }
 
 input {
-  width: 1em;
+  width: 30px;
   text-align: center;
 }
 
